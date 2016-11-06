@@ -15,3 +15,129 @@ select,
 textarea {
     max-width: 280px;
 }
+
+h3.subtitle {
+    margin-left: 20px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+/*Issue Items*/
+
+#IssuesContainer {
+    margin-top: 25px;
+}
+
+    #IssuesContainer > div.issue-item {
+        border: 1px solid #e5e5e5;
+        border-radius: 3px 3px 0 0;
+    }
+
+        #IssuesContainer > div.issue-item:hover {
+            background-color: #f5f5f5;
+        }
+
+        #IssuesContainer > div.issue-item:not(:last-of-type) {
+            margin-bottom: 2px;
+        }
+
+div.issue-item > div:first-of-type {
+    float: right;
+    text-align: right;
+}
+
+div.issue-item > a.issue-content {
+    display: block;
+    padding: 0 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #333;
+}
+
+    div.issue-item > a.issue-content > h4 {
+        font-weight: bold;
+    }
+
+    div.issue-item > a.issue-content > label {
+        font-weight: normal;
+    }
+
+    div.issue-item > a.issue-content > * {
+        cursor: pointer;
+    }
+
+div.issue-assignee {
+    text-align: center;
+    line-height: 15px;
+}
+
+div.issue-comments {
+    padding: 3px;
+    width: 55px;
+    text-align: left;
+    cursor: default;
+    display: inline-block;
+}
+
+    div.issue-comments > img {
+        width: 25px;
+        vertical-align: middle;
+    }
+
+/*Issue Pagination*/
+
+div.paginate-container {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+    div.paginate-container > div.pagination {
+        display: inline-block;
+    }
+
+div.pagination > a {
+    position: relative;
+    float: left;
+    padding: 7px 12px;
+    margin-left: -1px;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    color: #4078c0;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+}
+
+    div.pagination > a:hover {
+        z-index: 2;
+        text-decoration: none;
+        background-color: #e7e7e7;
+        border-color: #e5e5e5;
+    }
+
+    div.pagination > a.disabled {
+        color: #d3d3d3;
+        cursor: default;
+        background-color: #fafafa;
+    }
+
+    div.pagination > a:first-child {
+        margin-left: 0;
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+    }
+
+    div.pagination > a:last-child {
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+    }
