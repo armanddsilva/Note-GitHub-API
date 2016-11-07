@@ -11,7 +11,7 @@ compilerOptions="/langversion:6 /nowarn:1659;1699;1701"
 
 Change the langversion to 5.
 
-Once you are able to start the project successfully, the page that renders initially will be that of the frontend task given in the assessment. 
+Once you are able to start the project successfully, the page that renders initially will be the frontend task given in the assessment. I would have liked to get a bit more detailed given more time, but it fulfills the requirments. Additionally, I use a Jquery lib instead of your suggested Angular or React as I am still in the learning process of those frontend frameworks.
 
 As the project and local server is running you should be able to query the note api that is included in the project as well. (I used Postman, a chrome extension app)  
 
